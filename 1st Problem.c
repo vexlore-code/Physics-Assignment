@@ -11,8 +11,8 @@ int main()
     printf("Enter m, θ (deg), d (μm): ");
     scanf("%d %lf %lf", &m, &th, &d);
 
-    d *= 1e-6; 
-    l = (d * sin(th * PI / 180)) / m * 1e9; 
+    d *= pow(10, -6); 
+    l = (d * sin(th * PI / 180)) / m * pow(10, 9); 
 
     printf("Wavelength: %.2f nm\n", l);
 
