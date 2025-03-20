@@ -6,7 +6,7 @@
 int main()
 {
     int m1 = 3, m2 = 2;
-    double l1 = 530, l2 = 700, th1 = 65.0, s2, th2;
+    double l1 = 5.3e-7, l2 = 7e-7, th1 = 65.0, s2, th2;
 
     s2 = (m2 * l2) / (m1 * l1) * sin(th1 * PI / 180);
     
